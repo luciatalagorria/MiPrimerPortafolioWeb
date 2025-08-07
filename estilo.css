@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfcfb;
+  color: #333;
+}
+
+a {
+  color: #a27ea8;
+}
+
+/* Encabezado */
+header {
+  background-color:#eec6ff;
+  color: #4a4a4a;
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#encabezado h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 500px;
+  margin-bottom: 10px;
+}
+
+/* Secciones */
+section {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Sobre mí */
+#sobre-mi {
+  background-color: #fff0f6;
+  border-left: 5px solid #ffb3c6;
+}
+
+/* Experiencia */
+.experiencia {
+  background-color: #d0f4de;
+  border-left: 5px solid #95d5b2;
+}
+
+/* Habilidades */
+.habilidades {
+  background-color: #fff3b7;
+  border-left: 5px solid #ffe066;
+}
+
+.skills {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skills span {
+  background-color: #ffe066;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Contacto */
+.contacto {
+  background-color: #e5dbf5;
+  border-left: 5px solid #a27ea8;
+  
+}
+
+/* Pie */
+.pie {
+  background-color: #eeeded;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 40px;
+}
